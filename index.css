@@ -11,7 +11,10 @@
 	position: relative;
 	z-index: 0;
 	padding-bottom: 40px;
+	
+	
 }
+
 .navbar:before {
 	content: "";
 	position: absolute;
@@ -21,7 +24,7 @@
 	right: 0;
 	bottom: 0;
 	clip-path: circle(43% at 68% 0);
-	background-color: #649549;
+	background-color: #b8e79c;
 	opacity: 1;
 }
 /*eat together*/
@@ -79,9 +82,12 @@
 	text-align: right;
 	padding: 10px;
 	margin: 150px;
+	text-align: center;
 }
 #heading2 {
-	text-align: center;
+	
+	
+	
 }
 /*start of hot deals*/
 
