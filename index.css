@@ -1,19 +1,18 @@
-.btn{
-  background-color:#6CB840 ;  
-  border: 5px solid #6CB840 ;
-  border-radius: 30px;
-  color: white;
-  
+.btn {
+	background-color: #6CB840;
+	border: 5px solid #6CB840;
+	border-radius: 30px;
+	color: white;
 }
 /*start of nav*/
+
 .nav {
 	background-color: #e5e5e5;
 	position: relative;
 	z-index: 0;
 	padding-bottom: 40px;
-  }
-  
-  .navbar:before {
+}
+.navbar:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -22,52 +21,48 @@
 	right: 0;
 	bottom: 0;
 	clip-path: circle(43% at 68% 0);
-	background-color:  #649549;
+	background-color: #649549;
 	opacity: 1;
-  }
-
-
+}
 /*eat together*/
+
 .eating {
 	font-size: 1.25em;
 	text-align: justify;
 }
 .row {
 	display: flex;
-	justify-content:space-around;
-	padding:25px 0 ;
-	max-width:1280px;
-	margin:auto;
+	justify-content: space-around;
+	padding: 25px 0;
+	max-width: 1280px;
+	margin: auto;
 	width: 100%;
-	
 }
-.d{
+.d {
 	flex: 0 0 45%;
-	background:#f9f9f9;
+	background: #f9f9f9;
 }
-.object-fit{
-	overflow:hidden;
-	position:relative;
+.object-fit {
+	overflow: hidden;
+	position: relative;
 }
-.object-fit img{
+.object-fit img {
 	position: absolute;
-	top:50%;
-	left:50%;
-	height:auto;
-	width:auto;
-	transform:translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	height: auto;
+	width: auto;
+	transform: translate(-50%, -50%);
 }
 @supports (object-fit: cover) {
-  .object-fit img  {
-    position: static;
-    height: 100%;
-    width: 100%;
-    transform: none;
-    object-fit: cover;
-  }
+	.object-fit img {
+		position: static;
+		height: 100%;
+		width: 100%;
+		transform: none;
+		object-fit: cover;
+	}
 }
-
-
 /*start of explore menu*/
 
 .menu {
@@ -75,63 +70,58 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-    background-color:  #eaf3ea;
+	background-color: #eaf3ea;
 }
-.burger{
+.burger {
 	background-color: white;
 	border-style: none;
-	border-bottom-right-radius:30px;
+	border-bottom-right-radius: 30px;
 	text-align: right;
 	padding: 10px;
 	margin: 150px;
 }
-#heading2{
+#heading2 {
 	text-align: center;
 }
 /*start of hot deals*/
-#heading3{
-  text-align: center;
+
+#heading3 {
+	text-align: center;
 }
 .hotdeals {
 	display: flex;
 	text-align: justify;
-    background-color: #c9ecb5;
+	background-color: #c9ecb5;
 	justify-content: space-between;
-	
-	
 }
-  li{
-	  display: inline-block;
-	  padding: 50px;
-  }
-  
-  .contacts{
-	  background-color: #fff5dd;
-	  text-align: center;
-	  
-  }
-  .footer{
-	  background-color: #f1faec;
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: space-evenly;
-	  padding: 20px;
-  }
-  #time{
-	  border-right-style: dotted;
-	  border-color: #c7f2ad ;
-	  padding: 20px;
-  }
-
-  button{
-	  padding: 15px 32px;
-	  text-decoration: none;
-	  border: none;
-	  border-radius: 30px;
-	  color: white;
-	  background-color: #6CB840;
-  }
-  
+li {
+	display: inline-block;
+	padding: 50px;
+}
+.contacts {
+	background-color: #fff5dd;
+	text-align: center;
+}
+.footer {
+	background-color: #f1faec;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+#time {
+	border-right-style: dotted;
+	border-color: #c7f2ad;
+	padding: 20px;
+}
+button {
+	padding: 15px 32px;
+	text-decoration: none;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	background-color: #6CB840;
+}
   
 
 
