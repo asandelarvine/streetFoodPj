@@ -36,19 +36,15 @@
 .eating {
 	font-size: 1.25em;
 	text-align: justify;
+	
 }
-.row {
-	display: flex;
-	justify-content: space-around;
-	padding: 25px 0;
-	max-width: 1280px;
-	margin: auto;
-	width: 100%;
-}
+
 .d {
-	flex: 0 0 45%;
+	
 	background: #f9f9f9;
+	float: right;
 }
+
 .object-fit {
 	overflow: hidden;
 	position: relative;
@@ -96,9 +92,25 @@
 }
 .hotdeals {
 	display: flex;
-	text-align: justify;
+	padding-bottom: 50px;
 	background-color: #c9ecb5;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.images{
+	position: relative;
+}
+.img1{
+	position: absolute;
+	top: 2150px;
+	left: 0px;
+	z-index: 0;
+}
+.img2{
+	position: absolute;
+	top: 2280px;
+	left: 50px;
+	z-index: 1;
 }
 li {
 	display: inline-block;
